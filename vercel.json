@@ -1,0 +1,7 @@
+{
+  "routes": [
+    { "src": "/", "dest": "/main/abas/arquitetura.html/" },
+    { "src": "/(.*)", "dest": "/main/$1" },
+    { "src": "/(.*)", "dest": "/noticias/$1" }
+  ]
+}
